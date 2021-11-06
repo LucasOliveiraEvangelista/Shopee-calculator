@@ -58,3 +58,13 @@ main{
     font-weight: bold;
     margin-top: 8px;
 }
+@media(max-width: 810px){
+    #form #list{
+        height: 40%;
+        display: block;
+        padding: 20px;
+    }
+    #form #list p{
+        text-align: center;
+    }
+}

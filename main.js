@@ -23,7 +23,7 @@ function calculo () {
         precofinal.style.color="#0d9b00";
         
         precofinal.textContent = `R$ ${pf.toFixed(2)}`;
-        valorliq.textContent = `R$ +${vl.toFixed(2)}`;
+        valorliq.textContent = `R$ ${vl.toFixed(2)}`;
         val.textContent = `R$ ${vs}`;
 
     }else{
