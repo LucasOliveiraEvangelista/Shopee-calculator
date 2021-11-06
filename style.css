@@ -38,7 +38,7 @@ main{
     border: none;
     color: #ffffff;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 16px;
     font-size: 0.9rem;
     font-weight: bold;
 }
@@ -59,8 +59,15 @@ main{
     margin-top: 8px;
 }
 @media(max-width: 810px){
+    #form{
+        height: 46%;
+    }
+    #form button{
+        padding-top: 22px;
+    }
+
     #form #list{
-        height: 40%;
+        height: 25%;
         display: block;
         padding: 20px;
     }
