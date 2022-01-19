@@ -11,7 +11,7 @@ function calculo () {
     if(vs !== '' && pc !== ''){
 
         var r = vs - pc;
-        var pf = r-(r*(29/100));
+        var pf = r-(r*(38/100));
         var vl = pf - pc;
 
         if(vl > 0 ){
